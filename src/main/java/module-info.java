@@ -5,4 +5,6 @@ module com.example.tictactoe {
 
     opens com.example.tictactoe to javafx.fxml;
     exports com.example.tictactoe;
+
+    exports game to javafx.graphics;
 }
